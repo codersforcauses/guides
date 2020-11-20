@@ -7,7 +7,7 @@
       <img
         v-if="author.img"
         loading="lazy"
-        class="h-48 w-full object-cover"
+        class="h-60 w-full object-cover"
         :src="author.img"
         :alt="`${author.name}'s photo`"
       />
