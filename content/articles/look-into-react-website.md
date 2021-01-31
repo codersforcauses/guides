@@ -1,7 +1,7 @@
 ---
-title: Look into React Website
+title: A Look Into the React Website
 description: Looking at making websites in React
-updatedAt: January 14, 2020
+updatedAt: January 31, 2021
 img: https://images.unsplash.com/photo-1566241440091-ec10de8db2e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=60
 alt: React website
 tags:
@@ -13,17 +13,9 @@ author:
   img: /_nuxt/assets/content/davidthrone.jpg
 ---
 
-## Preamble
-
-First post for 2020 🎉. Probably post a year in review soon-ish... Welcome back to our projects or work :)
-
-The #1 advice I always give to uni students is to code as much as you can. Try to find something you are passionate about and code it. I think that is the best way to get started in the software industry but at some point you will start to get curious and start reading the open source code you use every day and realise you don't know a whole lot. Don't feel bad it doesn't mean you are dumb, it just means there is a lot to software.
-
-To improve it is important to read other people's code to get inspiration for new patterns that you can adopt in your projects. We will do just that by taking a look at https://reactjs.org
-
 ## The High Level
 
-At its core its just a static site created in [Gatsby](https://www.gatsbyjs.org/). Its interesting why they did not use their own [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html) I am guessing its because Gatsby is already optimized for building fast websites with great SEO.
+At its core the [react website](https://reactjs.org) is just a static site created in [Gatsby](https://www.gatsbyjs.org/). Its interesting why they did not use their own [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html) I am guessing its because Gatsby is already optimized for building fast websites with great SEO.
 
 ### Key tech
 
@@ -53,6 +45,8 @@ Additionally they do it for other things like links too e.g. `nav.yml`
 <nuxt-image file="nav-yaml.png" alt="nav yaml file picture" />
 
 and a bunch of other stuff like people's names, versions and languages basically content that is likely to change. The intention of doing this separation is to make code easier to read with fewer lines to parse, better maintainability since files are easier to find and you can easily differentiate from a low risk content change and a high risk code change.
+
+For a more detailed look at this concept, check out G2i's article on [Separation of Concerns](https://www.g2i.co/blog/react-separation-of-concerns).
 
 ### Writing our own UI library FTW!
 

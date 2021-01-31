@@ -12,6 +12,10 @@ h6 {
   @apply font-mono font-bold;
 }
 
+a {
+  color: #01f1cc;
+}
+
 button:focus,
 a:focus {
   outline-color: #01f1cc;
